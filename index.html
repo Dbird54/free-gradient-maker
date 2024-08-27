@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Free Gradient Maker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Free Gradient Maker</h1>
+        <div class="controls">
+            <label for="size">Choose Size:</label>
+            <select id="size">
+                <option value="small">Small</option>
+                <option value="medium">Medium</option>
+                <option value="large">Large</option>
+                <option value="extra-large">Extra Large</option>
+            </select>
+            <br><br>
+            <label for="orientation">Orientation:</label>
+            <select id="orientation">
+                <option value="landscape">Landscape</option>
+                <option value="portrait">Portrait</option>
+            </select>
+            <br><br>
+            <label for="gradientType">Gradient Type:</label>
+            <select id="gradientType">
+                <option value="linear">Linear</option>
+                <option value="radial">Radial</option>
+            </select>
+            <br><br>
+            <label for="color1">Color 1:</label>
+            <input type="color" id="color1" value="#ff7e5f">
+            <br><br>
+            <label for="color2">Color 2:</label>
+            <input type="color" id="color2" value="#feb47b">
+            <br><br>
+            <button id="saveBtn">Save as Image</button>
+        </div>
+        <div class="preview-frame">
+            <div class="gradient-preview" id="gradientPreview"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
