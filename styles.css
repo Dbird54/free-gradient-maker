@@ -90,5 +90,6 @@ button:hover {
 
 h1 {
     text-align: center;
-    background-color: rgb(180, 178, 178);
+    background: radial-gradient(#e9af32, #b5cfe2);
+    padding: 25px;
 }
