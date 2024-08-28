@@ -5,6 +5,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    background-color: rgb(231, 229, 229);
 }
 
 .container {
@@ -107,4 +108,8 @@ p {
 
 span {
     background-color:rgb(95, 248, 248)
+}
+
+a {
+    font-weight: bold;
 }
